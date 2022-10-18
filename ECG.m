@@ -1,7 +1,7 @@
 signalAnalyzer;
 readChannelID = 1011332;
 fieldID1 = 1;
-readAPIKey = 'EGX29RCSZTC56QPR';
+readAPIKey = '////////';
 sig = thingSpeakRead(readChannelID, 'Field', fieldID1, 'NumPoints', 450, 'ReadKey', readAPIKey);
 N=length(sig);
 fs=200;
